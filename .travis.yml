@@ -1,0 +1,11 @@
+language: objective-c
+os: osx
+osx_image: xcode11.3
+xcode_workspace: CanDraw.xcworkspace
+xcode_scheme: CanDraw
+xcode_destination: platform=iOS Simulator,OS=13.2.2,name=iPhone 8
+notifications:
+email:
+  recipients:
+    - j.batista.damasceno@icloud.com
+  on_failure: always # default: always
